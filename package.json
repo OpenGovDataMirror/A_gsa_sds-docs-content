@@ -1,0 +1,37 @@
+{
+  "name": "@gsa-sam/sds-examples",
+  "version": "1.0.0-beta.5-sha-236550f",
+  "description": "SDS Examples",
+  "main": "./bundles/sds-examples.umd.js",
+  "module": "./fesm5/sds-examples.js",
+  "es2015": "./fesm2015/sds-examples.js",
+  "typings": "./index.d.ts",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GSA/sam-design-system.git"
+  },
+  "keywords": [
+    "angular",
+    "sds",
+    "sam design system",
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GSA/sam-design-system/issues"
+  },
+  "homepage": "https://github.com/GSA/sam-design-system#readme",
+  "peerDependencies": {
+    "@angular/cdk": "^8.0.0 || ^9.0.0-0",
+    "@angular/core": "^8.0.0 || ^9.0.0-0",
+    "@angular/common": "^8.0.0 || ^9.0.0-0"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "fesm5": "./fesm5/sds-examples.js",
+  "fesm2015": "./fesm2015/sds-examples.js",
+  "esm5": "./esm5/index.js",
+  "esm2015": "./esm2015/index.js"
+}
